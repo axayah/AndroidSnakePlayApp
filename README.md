@@ -1,0 +1,2 @@
+# AndroidSnakePlayApp
+Android-приложение «ЗМЕЙКА»
