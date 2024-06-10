@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Snake</string>
+    <string name="game_over">ИГРА ЗАКОНЧЕНА</string>
+    <string name="desc_down_button">Кнопка вниз</string>
+    <string name="desc_up_button">Кнопка вверх</string>
+    <string name="desc_left_button">Кнопка лево</string>
+    <string name="desc_right_button">Кнопка право</string>
+</resources>

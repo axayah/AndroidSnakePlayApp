@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/bgabout">
+
+    <TextView
+        android:id="@+id/aboutTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="ЗМЕЙКА!"
+        android:textColor="#FFFFFF"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <TextView
+        android:id="@+id/aboutText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/backBtn"
+        android:layout_below="@id/aboutTitle"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="Классическая игра — это идеальное сочетание ностальгии и веселого геймплея. В этом увлекательном приложении игроки управляют змейкой, что напоминает знаменитых предшественников из эпохи старых мобильных телефонов. Управляйте змеей через бесконечное игровое поле без стен, остерегаясь столкновений с самим собой. Ваша задача — поедание фруктов, что делает вашу змею длиннее на каждом этапе, избегая одновременно столкновений. За каждый съеденный фрукт вы зарабатываете 1 очко, повышая свой рекорд. Сделайте игру еще более увлекательной, стремясь превзойти свои предыдущие достижения в этой классической игре времен первых мобильных устройств!\n\n\nАвтор игры: Елисеев Е. В."
+        android:textColor="#FFFFFF"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <Button
+        android:id="@+id/backBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="#193a2b"
+        android:text="Назад" />
+</RelativeLayout>
